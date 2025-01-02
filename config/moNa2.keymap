@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W      &kp E                       &kp R      &kp T                                &kp Y               &kp U  &lt 5 I   &kp O     &kp P
-&kp A       &kp S      &kp D                       &kp F      &kp G  &trans         &henkan        &kp H               &kp J  &kp K     &kp L     &mo 5
-&kp Z       &kp X      &kp C                       &kp V      &kp B  &mo 4          &kp MINUS      &kp N               &kp M  &mkp MB1  &mkp MB3  &mkp MB2
-&kp LSHIFT  &kp LCTRL  &mt LEFT_ALT LANG_HIRAGANA  &lt 1 TAB  &mo 2  &lt 3 SPACE    &kp BACKSPACE  &mt LEFT_WIN ENTER                             &kp ESC
+&kp Q       &kp W      &kp E         &kp R      &kp T                                &kp Y               &kp U  &lt 5 I   &kp O     &kp P
+&kp A       &kp S      &kp D         &kp F      &kp G  &trans         &kp LA(GRAVE)  &kp H               &kp J  &kp K     &kp L     &mo 5
+&kp Z       &kp X      &kp C         &kp V      &kp B  &mo 4          &kp MINUS      &kp N               &kp M  &mkp MB1  &mkp MB3  &mkp MB2
+&kp LSHIFT  &kp LCTRL  &kp LEFT_ALT  &lt 1 TAB  &mo 2  &lt 3 SPACE    &kp BACKSPACE  &mt LEFT_WIN ENTER                             &kp ESC
             >;
 
             sensor-bindings =
@@ -94,10 +94,10 @@
 
         layer_4 {
             bindings = <
-&kp LEFT_ALT  &kp GRAVE  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans        &trans     &trans  &trans  &trans  &trans    &trans       &trans        &trans        &trans        &trans        &trans
-&trans        &trans     &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans        &trans     &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&scroll_up_down>;
