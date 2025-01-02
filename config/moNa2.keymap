@@ -15,15 +15,6 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    macros {
-        henkan: henkan {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp GRAVE>;
-            label = "HENKAN";
-        };
-    };
-
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
