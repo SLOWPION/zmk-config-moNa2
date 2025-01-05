@@ -49,7 +49,7 @@
         default_layer {
             bindings = <
 &kp Q       &kp W      &kp E         &kp R      &kp T                                &kp Y               &kp U  &lt 5 I   &kp O     &kp P
-&kp A       &kp S      &kp D         &kp F      &kp G  &trans         &kp LA(GRAVE)  &kp H               &kp J  &kp K     &kp L     &mo 5
+&kp A       &kp S      &kp D         &kp F      &kp G  &trans         &kp GRAVE      &kp H               &kp J  &kp K     &kp L     &mo 5
 &kp Z       &kp X      &kp C         &kp V      &kp B  &mo 4          &kp MINUS      &kp N               &kp M  &mkp MB1  &mkp MB3  &mkp MB2
 &kp LSHIFT  &kp LCTRL  &kp LEFT_ALT  &lt 1 TAB  &mo 2  &lt 3 SPACE    &kp BACKSPACE  &mt LEFT_WIN ENTER                             &kp ESC
             >;
